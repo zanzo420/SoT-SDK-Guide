@@ -10,12 +10,15 @@ Function | Description
 -------- | ----------------
 playerController->ProjectWorldLocationToScreen | WorldToScreen function
 playerController->LineOfSightTo | Visibility check
-UCrewFunctions::AreCharactersInSameCrew | Check if bith players are in the same crew
+UCrewFunctions::AreCharactersInSameCrew | Check if both players are in the same crew
 UGameStateFunctionLibrary::GetAthenaGameStateFromWorld(uWord) | Get the AAthenaGameState
 UKismetTextLibrary::Conv_TextToString | Convert FText to FString
 UVectorMaths::Distance | Calculate distance between two FVector
 URotationMaths::RotatorToQuat | Convert FRotator to FQuat
-AActor->GetActorForwardVector | Normalized Forward Vector for an actor
+AActor->GetActorForwardVector | Normalized Forward Vector for an actor  
+UKismetGuidLibrary::IsValid_Guid | Checks if a FGuid is valid
+UKismetGuidLibrary::EqualEqual_GuidGuid | Compares if two FGuid's are equal
+UKismetGuidLibrary::Conv_GuidToString | Converts a FGuid to FString
 
 ## Math classes
 #### UKismetMathLibrary
